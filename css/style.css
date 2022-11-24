@@ -63,3 +63,67 @@
 .menu:active{
     box-shadow: none;
 }
+.container{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand > a{
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+}
+.navbar-brand > a{
+    text-align: center;
+}
+.navbar-brand > a > p{
+    font-size: 2rem;
+    color: var(--black);
+    text-decoration: underline;
+}
+.navbar-brand > a > span{
+    color: var(--black);
+}
+.nav-button-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    color: var(--black);
+    padding: 17px;
+}
+.nav-button-icon > button{
+     border: none;
+     background-color: var(--dark-blue-300);
+     border-radius: 8px;
+     color: var(--white);
+    text-transform: uppercase;
+    padding: 0.6rem 1rem;
+    transition: all .4s;
+    margin-right: 30px;
+}
+.nav-button-icon > button:hover{
+    cursor: pointer;
+}
+.icon-menu{
+    width: 30px;
+}
